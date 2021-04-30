@@ -1,0 +1,192 @@
+.carousel{
+  background-image: url('film.jpg');
+  background-position: center;
+  min-height: 65vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-content{
+  text-align: center;
+  padding-top: 5%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading > h1{
+  font-size: 4em;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.section-2{
+  transform: rotate(3deg);
+  text-align: center;
+  /* margin-top: 5%; */
+}
+.section-2 > h1{
+  color: white;
+  background-color: black;
+  display: inline;
+  padding: 5px 7px;
+  border: 1px solid black;
+}
+.section-2 > h1 >span{
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+.container-sm{
+  /* text-align: center; */
+  width: 40%;
+  height: 100%;
+}
+.form{
+  /* background-color: green; */
+  /* border: 1px solid black; */
+  margin: 5% 0;
+  padding: 5% 0;
+}
+.form-label{
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-1{
+  display: inline;
+}
+.entry{
+  display: block;
+  padding: 20px 0;
+}
+.but{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 9px 5px;
+}
+.mb-3{
+  margin: 30px 0;
+}
+.form-select{
+  margin: 20px 0;
+}
+.carousel-2{
+  background-image: url('fightclub.jpg');
+  background-position: center;
+  min-height: 45vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-rule > h2{
+  text-align: center;
+  padding-top: 9%;
+}
+.records {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  width: 60%;
+  border: 3px solid #6495ED;
+  padding: 10px;
+}
+table{
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #6495ED;
+  color: white;
+}
+footer {
+  background-color: #6495ED;
+  height: 60vh;
+}
+.grey{
+  justify-content: space-between;
+  display: flex;
+}
+.images{
+  text-align: center;
+}
+.sponsors{
+  margin-top: 10%;
+  width: 35%;
+  color: white;
+  margin-left: 24%;
+}
+.sponsors > h3{
+  text-align: center;
+}
+.logos{
+  text-align: center;
+}
+.social-media{
+  width: 35%;
+  color: white;
+  margin-right: 24%;
+  margin-top: 10.2%;
+}
+.social-media a{
+  color: white;
+}
+.social-media a:hover{
+  color: black;
+}
+.social-media > h3{
+  text-align: center;
+}
+#social{
+  font-size: 1em;
+  margin: 5px 15px;
+}
+@media screen and (max-width:950px) {
+  .container-sm{
+    width: 60%;
+    height: 100%;
+  }
+  .records {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    width: 100%;
+    border: 3px solid #6495ED;
+    padding: 10px;
+  }
+  table{
+    width: 100%;
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width:850px) {
+  .container-sm{
+    width: 70%;
+    height: 100%;
+  }
+  .heading > h1{
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 30px 0;
+  }
+  .social-media{
+    width: 300%;
+    color: white;
+    margin-right: 24%;
+    margin-top: 10%;
+  }
+  #social{
+    font-size: 1em;
+    margin: 5px 15px;
+  }
+}
+@media screen and (max-width:850px) {
+  #social{
+    font-size: 1em;
+    margin: 5px 15px;
+  }
+  .first-rule > h2{
+    text-align: center;
+    padding-top: 13%;
+  }
+}
